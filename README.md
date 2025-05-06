@@ -1,6 +1,1 @@
-# Screen-Time-Analysis-for-analyzing-predictivity
 
-Problem Statement:
-Excessive screen time is becoming a growing concern as it leads to decreased productivity, reduced focus, and the loss of valuable time. With the advent of smartphones, individuals struggle to manage their screen time, which not only affects their mental well-being but also disrupts their daily routines and priorities. There is a need for data-driven insights and solutions to help individuals take control of their productivity.
-
-In today's digital age, screen time has significantly increased, leading to various challenges such as reduced productivity, poor focus, and negative impacts on mental health. This project aims to address the issue of excessive screen time by developing a data-driven solution that monitors, analyzes, and provides actionable insights to users. By leveraging R programming, data visualization techniques, and user-collected data through surveys and mobile applications, the project focuses on tracking screen usage patterns, identifying inefficiencies, and suggesting strategies for better time management. The ultimate goal is to help users regain control over their daily routines, enhance productivity, and maintain a healthier balance between digital and offline activities.
