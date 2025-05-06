@@ -1,6 +1,3 @@
-Here’s a **professional and convincing README** tailored for your project on predicting student stress using academic and health data. This version is designed for direct **copy-paste into GitHub** (Markdown format only — no HTML/CSS so it renders correctly on GitHub):
-
----
 
 # 🎓 EduCalm: Predicting Student Stress for Better Well-being
 
@@ -123,6 +120,4 @@ Want to contribute? Help us:
 Built by [Harsh Gahlawat](https://github.com/your-github-username)
 Let's build stress-aware campuses together 💚
 
----
 
-Let me know if you want a version that includes badges, deploy buttons, or a demo video section.
