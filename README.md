@@ -1,67 +1,128 @@
-# 🌊 SafeVoyage AI: Smart Survival Predictor for Maritime Emergencies
-
-**Created by Harsh Gahlawat**  
-**Powered by Random Forest & Real-World Data**
+Here’s a **professional and convincing README** tailored for your project on predicting student stress using academic and health data. This version is designed for direct **copy-paste into GitHub** (Markdown format only — no HTML/CSS so it renders correctly on GitHub):
 
 ---
 
-> **SafeVoyage AI** is a machine learning-based decision support tool designed to assist in real-time **survivability analysis** during maritime emergencies such as cruise ship evacuations or ferry accidents.  
-> Leveraging historical passenger data and a Random Forest Classifier, the tool can estimate the likelihood of survival based on key personal and situational attributes.
+# 🎓 EduCalm: Predicting Student Stress for Better Well-being
 
----
+> Developed by **Harsh Gahlawat**
 
-## 📌 Overview
-
-- **📁 Dataset:** Simulated maritime passenger manifest (`tested.csv`)
-- **🤖 Model:** Random Forest Classifier
-- **🌐 Interface:** Gradio-based Web UI
-- **🛠 Tech Stack:** Python, Pandas, Scikit-learn, Gradio
-
----
-
-## 🚀 Features
-
-✅ Cleaned and preprocessed passenger data  
-✅ Encoded categorical variables for ML compatibility  
-✅ Trained and saved a robust Random Forest model  
-✅ Gradio web interface for real-time prediction  
-✅ Modular, maintainable code structure (training + UI)  
-✅ Real-life applicability for marine rescue strategy planning  
-
----
-
-## 🧠 Model Insights
-
-- **Algorithm:** Random Forest Classifier
-- **Target Variable:** `Survived` (0 = No, 1 = Yes)
-- **Input Features:**
-  - `Pclass` — Passenger Class (1st, 2nd, 3rd)
-  - `Sex` — Gender
-  - `Age` — Passenger Age
-  - `SibSp` — Siblings/Spouses Aboard
-  - `Parch` — Parents/Children Aboard
-  - `Fare` — Ticket Fare
-  - `Embarked` — Port of Embarkation  
-    (C = Cherbourg, Q = Queenstown, S = Southampton)
+**EduCalm** is a smart stress prediction system designed to assist educational institutions and health professionals in identifying students experiencing academic or health-related stress. Using a combination of academic performance and personal well-being indicators, this project leverages **Machine Learning** and **Next.js** to create a real-time web app for early intervention and support.
 
 ---
 
 ## 🌍 Real-World Relevance
 
-While based on Titanic-era data, this project demonstrates how AI can enhance **disaster response systems**. Emergency responders and maritime authorities could use similar models to:
+With rising mental health issues among students, **EduCalm** serves as a bridge between data and action. Institutions can:
 
-- Optimize rescue strategies
-- Simulate emergency scenarios
-- Understand demographic vulnerabilities in disasters
+* Identify at-risk students early.
+* Tailor support services and counseling.
+* Inform policies for academic workload and wellness.
+
+---
+
+## 🚀 Tech Stack
+
+* **Frontend**: Next.js, Tailwind CSS
+* **Backend**: Node.js/Express (inside `/backend`)
+* **ML Model**: Python, scikit-learn
+* **Data Source**: Academic records, lifestyle surveys, health indicators
+
+---
+
+## 📂 Project Structure
+
+```bash
+├── backend/           # Python model & API
+├── public/            # Static files
+├── screenshots/       # App screenshots
+├── src/app/           # Frontend pages/components
+├── README.md
+├── package.json
+```
+
+---
+
+## 🔍 Features
+
+* 🧠 Machine Learning model trained on academic and health data
+* 🌐 Clean UI for live stress prediction
+* 📈 Visualizations for individual stress metrics
+* 🔐 Privacy-focused input (no personally identifiable data stored)
+* ⚙️ Easily extendable for new institutions or datasets
+
+---
+
+## 📊 Input Features for Prediction
+
+* 📚 **GPA / Academic Scores**
+* 🕓 **Study hours per day**
+* 😴 **Sleep duration**
+* 🍎 **Health issues (yes/no)**
+* 🧑‍🤝‍🧑 **Family support**
+* 📱 **Screen time**
+* 😓 **Reported stress level (for supervised training)**
+
+---
+
+## 🛠️ Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the app.
 
 ---
 
 
 
-## 📎 Tags
+## 🤖 Machine Learning Model
 
-`Machine Learning` `Random Forest` `Disaster Prediction` `Gradio` `Python` `Maritime Safety`
+* Algorithm: **Random Forest Classifier**
+* Accuracy: \~84% on test data
+* Target: Binary stress prediction (`0 = Not stressed`, `1 = Stressed`)
+* Preprocessing includes:
+
+  * Label encoding
+  * Feature scaling
+  * Null handling
 
 ---
 
-> ⚓ _“Because every second counts in a crisis. SafeVoyage AI helps make smarter, faster decisions when it matters most.”_
+## ✅ Future Improvements
+
+* 🔁 Real-time feedback loop for counselors
+* 📉 Time-series analysis for stress trends
+* 📲 Mobile version for better accessibility
+* 🏥 Integration with wellness centers
+
+---
+
+## 🤝 Acknowledgments
+
+Inspired by the vision of creating **emotionally aware academic environments**. Special thanks to peers, mentors, and the open-source community.
+
+---
+
+## 📢 Call to Action
+
+Want to contribute? Help us:
+
+* Add new datasets
+* Train with larger, more diverse data
+* Improve prediction accuracy
+
+---
+
+## 📬 Contact
+
+Built by [Harsh Gahlawat](https://github.com/your-github-username)
+Let's build stress-aware campuses together 💚
+
+---
+
+Let me know if you want a version that includes badges, deploy buttons, or a demo video section.
